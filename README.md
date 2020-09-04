@@ -1,3 +1,6 @@
+## 먼나라 이웃나라
+이 프로젝트는 REACT와 NODE.JS를 이용하여 공항 간 거리와 비행시간을 알려주는 웹사이트를 제작한다
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
