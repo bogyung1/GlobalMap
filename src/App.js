@@ -10,13 +10,24 @@ class App extends Component {
 
 
   state = {
-    country : [
-      {
-        departure: '',
-        arrival: ''
+    departure: {
+      name: '',
+      code:'',
+      location: {
+        lat: 0,
+        lon: 0
       }
-    ]
+    },
+    arrival: {
+      name: '',
+      code: '',
+      location: {
+        lat: 0,
+        lon: 0
+      }
+    }
   }
+
 
   render() {
 
@@ -25,25 +36,13 @@ class App extends Component {
     return (
         <div>
           {airportData.map((item, index) => {
-              /*
-              var arr = [];
-              var start = "BKI";
-              var end = "PUS";
-              if (start == item.arp && end == item.odp)
-              {
-                  arr.push("출발공항 : " + item.arp)
-                  arr.push("도착공항 : " + item.odp)
-                  arr.push("거리 : " + item.km+"km");
-                  arr.push("소요시간 : " + item.time+"분");
-              }
-*/
+
             return (
 
                 <pre>
                     <h3></h3>
                 </pre>
 
-               // <h3>출발공항:{item.arp}, 거리:{item.km}, 도착공항:{item.odp}, time: {item.time}</h3>
 
             );
           })

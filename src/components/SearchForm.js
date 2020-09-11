@@ -5,7 +5,6 @@ class SearchForm extends Component {
     state = {
         departure : '',
         arrival : ''
-
     }
     handleChange = (e) => {
         this.setState({
