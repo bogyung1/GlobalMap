@@ -18,6 +18,7 @@ queryParams += '&' + encodeURIComponent('schLineType') + '=' + encodeURIComponen
 queryParams += '&' + encodeURIComponent('serviceKey') + '=' + encodeURIComponent(''); /* */
 queryParams +='&' + encodeURIComponent('numOfRows') + '=' + encodeURIComponent('10'); /* */
 
+
 request({
     url: url + queryParams,
     method: 'GET'
@@ -26,3 +27,7 @@ request({
     console.log('Headers', JSON.stringify(response.headers));
     console.log('Reponse received', body);
 });
+
+
+
+
