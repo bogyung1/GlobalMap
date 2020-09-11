@@ -1,12 +1,10 @@
 const express = require('express');
-const connect = require('./schemas')
 const app = express();
 const cors = require('cors');
 
 const bodyParser = require('body-parser');
 const port =process.env.PORT || 3002;
 
-connect();
 app.use(cors());
 
 app.use(bodyParser.json());
