@@ -7,6 +7,7 @@
 // });
 // module.exports=router;
 
+const convert = require('xml-js');
 var request = require('request');
 
 var url = 'http://openapi.airport.co.kr/service/rest/serviceLine/serviceLines';
@@ -22,7 +23,13 @@ request({
     url: url + queryParams,
     method: 'GET'
 }, function (error, response, body) {
-    console.log('Status', response.statusCode);
-    console.log('Headers', JSON.stringify(response.headers));
-    console.log('Reponse received', body);
+    // console.log('Status', response.statusCode);
+    // console.log('Headers', JSON.stringify(response.headers));
+    // //body:xml부분
+    // console.log('Reponse received', body);
+    var result = body
+    console.log(`body data => ${result}`)
+    var xmlToJson = convert.xml2json(result, {compact: true, spaces: 4});
+    console.log(`xml to json=> ${xmlToJson}`)
+
 });

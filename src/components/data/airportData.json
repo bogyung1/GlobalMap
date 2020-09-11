@@ -1,0 +1,2186 @@
+[
+  {
+    "arp": "BKI",
+    "km": "3499",
+    "odp": "PUS",
+    "time": "277",
+    "tof": "I"
+  },
+  {
+    "arp": "BKK",
+    "km": "3719",
+    "odp": "TAE",
+    "time": "293",
+    "tof": "I"
+  },
+  {
+    "arp": "BKK",
+    "km": "3695",
+    "odp": "PUS",
+    "time": "292",
+    "tof": "I"
+  },
+  {
+    "arp": "BKK",
+    "km": "3405",
+    "odp": "CJU",
+    "time": "270",
+    "tof": "I"
+  },
+  {
+    "arp": "CAN",
+    "km": "1999",
+    "odp": "PUS",
+    "time": "164",
+    "tof": "I"
+  },
+  {
+    "arp": "CAN",
+    "km": "1708",
+    "odp": "CJU",
+    "time": "143",
+    "tof": "I"
+  },
+  {
+    "arp": "CEB",
+    "km": "2800",
+    "odp": "PUS",
+    "time": "225",
+    "tof": "I"
+  },
+  {
+    "arp": "CGO",
+    "km": "1387",
+    "odp": "YNY",
+    "time": "119",
+    "tof": "I"
+  },
+  {
+    "arp": "CGO",
+    "km": "1173",
+    "odp": "CJU",
+    "time": "102",
+    "tof": "I"
+  },
+  {
+    "arp": "CGO",
+    "km": "1149",
+    "odp": "MWX",
+    "time": "101",
+    "tof": "I"
+  },
+  {
+    "arp": "CGQ",
+    "km": "1165",
+    "odp": "CJU",
+    "time": "102",
+    "tof": "I"
+  },
+  {
+    "arp": "CGQ",
+    "km": "1017",
+    "odp": "PUS",
+    "time": "91",
+    "tof": "I"
+  },
+  {
+    "arp": "CJJ",
+    "km": "2712",
+    "odp": "HAN",
+    "time": "218",
+    "tof": "I"
+  },
+  {
+    "arp": "CJJ",
+    "km": "2099",
+    "odp": "ULN",
+    "time": "172",
+    "tof": "I"
+  },
+  {
+    "arp": "CJJ",
+    "km": "1801",
+    "odp": "DYG",
+    "time": "150",
+    "tof": "I"
+  },
+  {
+    "arp": "CJJ",
+    "km": "1712",
+    "odp": "KHH",
+    "time": "143",
+    "tof": "I"
+  },
+  {
+    "arp": "CJJ",
+    "km": "1421",
+    "odp": "TPE",
+    "time": "121",
+    "tof": "I"
+  },
+  {
+    "arp": "CJJ",
+    "km": "1022",
+    "odp": "PEK",
+    "time": "91",
+    "tof": "I"
+  },
+  {
+    "arp": "CJJ",
+    "km": "995",
+    "odp": "HRB",
+    "time": "89",
+    "tof": "I"
+  },
+  {
+    "arp": "CJJ",
+    "km": "974",
+    "odp": "HGH",
+    "time": "88",
+    "tof": "I"
+  },
+  {
+    "arp": "CJJ",
+    "km": "948",
+    "odp": "NGB",
+    "time": "86",
+    "tof": "I"
+  },
+  {
+    "arp": "CJJ",
+    "km": "813",
+    "odp": "PVG",
+    "time": "75",
+    "tof": "I"
+  },
+  {
+    "arp": "CJJ",
+    "km": "705",
+    "odp": "YNJ",
+    "time": "67",
+    "tof": "I"
+  },
+  {
+    "arp": "CJJ",
+    "km": "647",
+    "odp": "SHE",
+    "time": "63",
+    "tof": "I"
+  },
+  {
+    "arp": "CJJ",
+    "km": "581",
+    "odp": "DLC",
+    "time": "58",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "4265",
+    "odp": "SIN",
+    "time": "334",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "3405",
+    "odp": "BKK",
+    "time": "270",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "2890",
+    "odp": "GUM",
+    "time": "231",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "2486",
+    "odp": "KMG",
+    "time": "201",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "2292",
+    "odp": "ULN",
+    "time": "186",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "2176",
+    "odp": "MNL",
+    "time": "178",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "2163",
+    "odp": "NNG",
+    "time": "177",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "2150",
+    "odp": "CTU",
+    "time": "176",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "2047",
+    "odp": "KWE",
+    "time": "168",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1926",
+    "odp": "CKG",
+    "time": "159",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1887",
+    "odp": "INC",
+    "time": "156",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1839",
+    "odp": "KWL",
+    "time": "152",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1786",
+    "odp": "MFM",
+    "time": "148",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1751",
+    "odp": "HKG",
+    "time": "146",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1732",
+    "odp": "SZX",
+    "time": "144",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1708",
+    "odp": "CAN",
+    "time": "143",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1640",
+    "odp": "XIY",
+    "time": "138",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1523",
+    "odp": "HAN",
+    "time": "129",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1399",
+    "odp": "CSX",
+    "time": "119",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1345",
+    "odp": "HRB",
+    "time": "115",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1297",
+    "odp": "NRT",
+    "time": "112",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1284",
+    "odp": "XMN",
+    "time": "111",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1233",
+    "odp": "JJN",
+    "time": "107",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1197",
+    "odp": "WUH",
+    "time": "104",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1188",
+    "odp": "SJW",
+    "time": "104",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1173",
+    "odp": "CGO",
+    "time": "102",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1165",
+    "odp": "CGQ",
+    "time": "102",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1143",
+    "odp": "PEK",
+    "time": "100",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1133",
+    "odp": "KHN",
+    "time": "99",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1072",
+    "odp": "YNJ",
+    "time": "95",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1065",
+    "odp": "TPE",
+    "time": "94",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "1028",
+    "odp": "TSN",
+    "time": "92",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "962",
+    "odp": "NGO",
+    "time": "87",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "940",
+    "odp": "SHE",
+    "time": "85",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "922",
+    "odp": "TNA",
+    "time": "84",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "822",
+    "odp": "WNZ",
+    "time": "76",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "814",
+    "odp": "KIX",
+    "time": "76",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "752",
+    "odp": "DLC",
+    "time": "71",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "742",
+    "odp": "NKG",
+    "time": "70",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "679",
+    "odp": "HGH",
+    "time": "65",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "664",
+    "odp": "FOC",
+    "time": "64",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "628",
+    "odp": "NGB",
+    "time": "62",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "612",
+    "odp": "WUX",
+    "time": "60",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "515",
+    "odp": "PVG",
+    "time": "53",
+    "tof": "I"
+  },
+  {
+    "arp": "CJU",
+    "km": "367",
+    "odp": "FUK",
+    "time": "42",
+    "tof": "I"
+  },
+  {
+    "arp": "CKG",
+    "km": "2166",
+    "odp": "TAE",
+    "time": "177",
+    "tof": "I"
+  },
+  {
+    "arp": "CKG",
+    "km": "1926",
+    "odp": "CJU",
+    "time": "159",
+    "tof": "I"
+  },
+  {
+    "arp": "CSX",
+    "km": "1806",
+    "odp": "YNY",
+    "time": "150",
+    "tof": "I"
+  },
+  {
+    "arp": "CSX",
+    "km": "1687",
+    "odp": "TAE",
+    "time": "141",
+    "tof": "I"
+  },
+  {
+    "arp": "CSX",
+    "km": "1677",
+    "odp": "PUS",
+    "time": "140",
+    "tof": "I"
+  },
+  {
+    "arp": "CSX",
+    "km": "1399",
+    "odp": "CJU",
+    "time": "119",
+    "tof": "I"
+  },
+  {
+    "arp": "CTS",
+    "km": "1387",
+    "odp": "PUS",
+    "time": "119",
+    "tof": "I"
+  },
+  {
+    "arp": "CTU",
+    "km": "2150",
+    "odp": "CJU",
+    "time": "176",
+    "tof": "I"
+  },
+  {
+    "arp": "DAD",
+    "km": "2992",
+    "odp": "TAE",
+    "time": "239",
+    "tof": "I"
+  },
+  {
+    "arp": "DAD",
+    "km": "2960",
+    "odp": "PUS",
+    "time": "237",
+    "tof": "I"
+  },
+  {
+    "arp": "DAD",
+    "km": "2773",
+    "odp": "MWX",
+    "time": "222",
+    "tof": "I"
+  },
+  {
+    "arp": "DLC",
+    "km": "752",
+    "odp": "CJU",
+    "time": "71",
+    "tof": "I"
+  },
+  {
+    "arp": "DLC",
+    "km": "581",
+    "odp": "CJJ",
+    "time": "58",
+    "tof": "I"
+  },
+  {
+    "arp": "DYG",
+    "km": "1867",
+    "odp": "PUS",
+    "time": "155",
+    "tof": "I"
+  },
+  {
+    "arp": "DYG",
+    "km": "1867",
+    "odp": "TAE",
+    "time": "155",
+    "tof": "I"
+  },
+  {
+    "arp": "DYG",
+    "km": "1801",
+    "odp": "CJJ",
+    "time": "150",
+    "tof": "I"
+  },
+  {
+    "arp": "DYG",
+    "km": "1638",
+    "odp": "MWX",
+    "time": "137",
+    "tof": "I"
+  },
+  {
+    "arp": "FOC",
+    "km": "1590",
+    "odp": "YNY",
+    "time": "134",
+    "tof": "I"
+  },
+  {
+    "arp": "FOC",
+    "km": "664",
+    "odp": "CJU",
+    "time": "64",
+    "tof": "I"
+  },
+  {
+    "arp": "FUK",
+    "km": "367",
+    "odp": "CJU",
+    "time": "42",
+    "tof": "I"
+  },
+  {
+    "arp": "FUK",
+    "km": "225",
+    "odp": "PUS",
+    "time": "31",
+    "tof": "I"
+  },
+  {
+    "arp": "GMP",
+    "km": "1471",
+    "odp": "TSA",
+    "time": "125",
+    "tof": "I"
+  },
+  {
+    "arp": "GMP",
+    "km": "1183",
+    "odp": "HND",
+    "time": "103",
+    "tof": "I"
+  },
+  {
+    "arp": "GMP",
+    "km": "948",
+    "odp": "NGO",
+    "time": "86",
+    "tof": "I"
+  },
+  {
+    "arp": "GMP",
+    "km": "927",
+    "odp": "PEK",
+    "time": "84",
+    "tof": "I"
+  },
+  {
+    "arp": "GMP",
+    "km": "866",
+    "odp": "SHA",
+    "time": "79",
+    "tof": "I"
+  },
+  {
+    "arp": "GMP",
+    "km": "837",
+    "odp": "KIX",
+    "time": "77",
+    "tof": "I"
+  },
+  {
+    "arp": "GMP",
+    "km": "449",
+    "odp": "CJU",
+    "time": "48",
+    "tof": "I"
+  },
+  {
+    "arp": "GUM",
+    "km": "2961",
+    "odp": "TAE",
+    "time": "237",
+    "tof": "I"
+  },
+  {
+    "arp": "GUM",
+    "km": "2890",
+    "odp": "CJU",
+    "time": "231",
+    "tof": "I"
+  },
+  {
+    "arp": "GUM",
+    "km": "2884",
+    "odp": "PUS",
+    "time": "231",
+    "tof": "I"
+  },
+  {
+    "arp": "HAN",
+    "km": "2754",
+    "odp": "TAE",
+    "time": "221",
+    "tof": "I"
+  },
+  {
+    "arp": "HAN",
+    "km": "2736",
+    "odp": "PUS",
+    "time": "220",
+    "tof": "I"
+  },
+  {
+    "arp": "HAN",
+    "km": "2712",
+    "odp": "CJJ",
+    "time": "218",
+    "tof": "I"
+  },
+  {
+    "arp": "HAN",
+    "km": "2523",
+    "odp": "MWX",
+    "time": "204",
+    "tof": "I"
+  },
+  {
+    "arp": "HAN",
+    "km": "1523",
+    "odp": "CJU",
+    "time": "129",
+    "tof": "I"
+  },
+  {
+    "arp": "HFE",
+    "km": "1260",
+    "odp": "YNY",
+    "time": "109",
+    "tof": "I"
+  },
+  {
+    "arp": "HGH",
+    "km": "974",
+    "odp": "CJJ",
+    "time": "88",
+    "tof": "I"
+  },
+  {
+    "arp": "HGH",
+    "km": "967",
+    "odp": "PUS",
+    "time": "87",
+    "tof": "I"
+  },
+  {
+    "arp": "HGH",
+    "km": "679",
+    "odp": "CJU",
+    "time": "65",
+    "tof": "I"
+  },
+  {
+    "arp": "HKG",
+    "km": "2042",
+    "odp": "PUS",
+    "time": "168",
+    "tof": "I"
+  },
+  {
+    "arp": "HKG",
+    "km": "1751",
+    "odp": "CJU",
+    "time": "146",
+    "tof": "I"
+  },
+  {
+    "arp": "HND",
+    "km": "1183",
+    "odp": "GMP",
+    "time": "103",
+    "tof": "I"
+  },
+  {
+    "arp": "HRB",
+    "km": "1345",
+    "odp": "CJU",
+    "time": "115",
+    "tof": "I"
+  },
+  {
+    "arp": "HRB",
+    "km": "1181",
+    "odp": "PUS",
+    "time": "103",
+    "tof": "I"
+  },
+  {
+    "arp": "HRB",
+    "km": "995",
+    "odp": "CJJ",
+    "time": "89",
+    "tof": "I"
+  },
+  {
+    "arp": "HRB",
+    "km": "864",
+    "odp": "YNY",
+    "time": "79",
+    "tof": "I"
+  },
+  {
+    "arp": "ICN",
+    "km": "338",
+    "odp": "PUS",
+    "time": "40",
+    "tof": "I"
+  },
+  {
+    "arp": "ICN",
+    "km": "264",
+    "odp": "TAE",
+    "time": "34",
+    "tof": "I"
+  },
+  {
+    "arp": "INC",
+    "km": "1887",
+    "odp": "CJU",
+    "time": "156",
+    "tof": "I"
+  },
+  {
+    "arp": "JJN",
+    "km": "1233",
+    "odp": "CJU",
+    "time": "107",
+    "tof": "I"
+  },
+  {
+    "arp": "KHH",
+    "km": "1712",
+    "odp": "CJJ",
+    "time": "143",
+    "tof": "I"
+  },
+  {
+    "arp": "KHH",
+    "km": "1627",
+    "odp": "PUS",
+    "time": "137",
+    "tof": "I"
+  },
+  {
+    "arp": "KHH",
+    "km": "1495",
+    "odp": "MWX",
+    "time": "127",
+    "tof": "I"
+  },
+  {
+    "arp": "KHN",
+    "km": "1563",
+    "odp": "YNY",
+    "time": "132",
+    "tof": "I"
+  },
+  {
+    "arp": "KHN",
+    "km": "1201",
+    "odp": "MWX",
+    "time": "105",
+    "tof": "I"
+  },
+  {
+    "arp": "KHN",
+    "km": "1133",
+    "odp": "CJU",
+    "time": "99",
+    "tof": "I"
+  },
+  {
+    "arp": "KHV",
+    "km": "1819",
+    "odp": "CJU",
+    "time": "151",
+    "tof": "I"
+  },
+  {
+    "arp": "KHV",
+    "km": "1276",
+    "odp": "YNY",
+    "time": "110",
+    "tof": "I"
+  },
+  {
+    "arp": "KIX",
+    "km": "837",
+    "odp": "GMP",
+    "time": "77",
+    "tof": "I"
+  },
+  {
+    "arp": "KIX",
+    "km": "814",
+    "odp": "CJU",
+    "time": "76",
+    "tof": "I"
+  },
+  {
+    "arp": "KIX",
+    "km": "813",
+    "odp": "MWX",
+    "time": "75",
+    "tof": "I"
+  },
+  {
+    "arp": "KIX",
+    "km": "583",
+    "odp": "PUS",
+    "time": "58",
+    "tof": "I"
+  },
+  {
+    "arp": "KKJ",
+    "km": "446",
+    "odp": "MWX",
+    "time": "48",
+    "tof": "I"
+  },
+  {
+    "arp": "KKJ",
+    "km": "243",
+    "odp": "PUS",
+    "time": "33",
+    "tof": "I"
+  },
+  {
+    "arp": "KLO",
+    "km": "2686",
+    "odp": "PUS",
+    "time": "216",
+    "tof": "I"
+  },
+  {
+    "arp": "KMG",
+    "km": "2755",
+    "odp": "PUS",
+    "time": "221",
+    "tof": "I"
+  },
+  {
+    "arp": "KMG",
+    "km": "2486",
+    "odp": "CJU",
+    "time": "201",
+    "tof": "I"
+  },
+  {
+    "arp": "KUL",
+    "km": "4561",
+    "odp": "PUS",
+    "time": "357",
+    "tof": "I"
+  },
+  {
+    "arp": "KWE",
+    "km": "2047",
+    "odp": "CJU",
+    "time": "168",
+    "tof": "I"
+  },
+  {
+    "arp": "MFM",
+    "km": "2110",
+    "odp": "TAE",
+    "time": "173",
+    "tof": "I"
+  },
+  {
+    "arp": "MFM",
+    "km": "2078",
+    "odp": "PUS",
+    "time": "170",
+    "tof": "I"
+  },
+  {
+    "arp": "MFM",
+    "km": "1891",
+    "odp": "MWX",
+    "time": "156",
+    "tof": "I"
+  },
+  {
+    "arp": "MFM",
+    "km": "1786",
+    "odp": "CJU",
+    "time": "148",
+    "tof": "I"
+  },
+  {
+    "arp": "MNL",
+    "km": "2424",
+    "odp": "PUS",
+    "time": "196",
+    "tof": "I"
+  },
+  {
+    "arp": "MNL",
+    "km": "2176",
+    "odp": "CJU",
+    "time": "178",
+    "tof": "I"
+  },
+  {
+    "arp": "MWX",
+    "km": "3296",
+    "odp": "REP",
+    "time": "262",
+    "tof": "I"
+  },
+  {
+    "arp": "MWX",
+    "km": "2773",
+    "odp": "DAD",
+    "time": "222",
+    "tof": "I"
+  },
+  {
+    "arp": "MWX",
+    "km": "2523",
+    "odp": "HAN",
+    "time": "204",
+    "tof": "I"
+  },
+  {
+    "arp": "MWX",
+    "km": "1891",
+    "odp": "MFM",
+    "time": "156",
+    "tof": "I"
+  },
+  {
+    "arp": "MWX",
+    "km": "1638",
+    "odp": "DYG",
+    "time": "137",
+    "tof": "I"
+  },
+  {
+    "arp": "MWX",
+    "km": "1495",
+    "odp": "KHH",
+    "time": "127",
+    "tof": "I"
+  },
+  {
+    "arp": "MWX",
+    "km": "1230",
+    "odp": "WUH",
+    "time": "107",
+    "tof": "I"
+  },
+  {
+    "arp": "MWX",
+    "km": "1205",
+    "odp": "TPE",
+    "time": "105",
+    "tof": "I"
+  },
+  {
+    "arp": "MWX",
+    "km": "1201",
+    "odp": "KHN",
+    "time": "105",
+    "tof": "I"
+  },
+  {
+    "arp": "MWX",
+    "km": "1149",
+    "odp": "CGO",
+    "time": "101",
+    "tof": "I"
+  },
+  {
+    "arp": "MWX",
+    "km": "1032",
+    "odp": "PEK",
+    "time": "92",
+    "tof": "I"
+  },
+  {
+    "arp": "MWX",
+    "km": "924",
+    "odp": "TSN",
+    "time": "84",
+    "tof": "I"
+  },
+  {
+    "arp": "MWX",
+    "km": "916",
+    "odp": "YNJ",
+    "time": "83",
+    "tof": "I"
+  },
+  {
+    "arp": "MWX",
+    "km": "813",
+    "odp": "KIX",
+    "time": "75",
+    "tof": "I"
+  },
+  {
+    "arp": "MWX",
+    "km": "605",
+    "odp": "PVG",
+    "time": "60",
+    "tof": "I"
+  },
+  {
+    "arp": "MWX",
+    "km": "446",
+    "odp": "KKJ",
+    "time": "48",
+    "tof": "I"
+  },
+  {
+    "arp": "NGB",
+    "km": "1130",
+    "odp": "YNY",
+    "time": "99",
+    "tof": "I"
+  },
+  {
+    "arp": "NGB",
+    "km": "951",
+    "odp": "TAE",
+    "time": "86",
+    "tof": "I"
+  },
+  {
+    "arp": "NGB",
+    "km": "948",
+    "odp": "CJJ",
+    "time": "86",
+    "tof": "I"
+  },
+  {
+    "arp": "NGB",
+    "km": "628",
+    "odp": "CJU",
+    "time": "62",
+    "tof": "I"
+  },
+  {
+    "arp": "NGO",
+    "km": "962",
+    "odp": "CJU",
+    "time": "87",
+    "tof": "I"
+  },
+  {
+    "arp": "NGO",
+    "km": "948",
+    "odp": "GMP",
+    "time": "86",
+    "tof": "I"
+  },
+  {
+    "arp": "NGO",
+    "km": "719",
+    "odp": "PUS",
+    "time": "68",
+    "tof": "I"
+  },
+  {
+    "arp": "NKG",
+    "km": "1011",
+    "odp": "PUS",
+    "time": "90",
+    "tof": "I"
+  },
+  {
+    "arp": "NKG",
+    "km": "742",
+    "odp": "CJU",
+    "time": "70",
+    "tof": "I"
+  },
+  {
+    "arp": "NNG",
+    "km": "2601",
+    "odp": "YNY",
+    "time": "210",
+    "tof": "I"
+  },
+  {
+    "arp": "NNG",
+    "km": "2163",
+    "odp": "CJU",
+    "time": "177",
+    "tof": "I"
+  },
+  {
+    "arp": "NRT",
+    "km": "1297",
+    "odp": "CJU",
+    "time": "112",
+    "tof": "I"
+  },
+  {
+    "arp": "NRT",
+    "km": "1040",
+    "odp": "PUS",
+    "time": "93",
+    "tof": "I"
+  },
+  {
+    "arp": "OKA",
+    "km": "1004",
+    "odp": "PUS",
+    "time": "90",
+    "tof": "I"
+  },
+  {
+    "arp": "PEK",
+    "km": "1215",
+    "odp": "PUS",
+    "time": "106",
+    "tof": "I"
+  },
+  {
+    "arp": "PEK",
+    "km": "1156",
+    "odp": "TAE",
+    "time": "101",
+    "tof": "I"
+  },
+  {
+    "arp": "PEK",
+    "km": "1143",
+    "odp": "CJU",
+    "time": "100",
+    "tof": "I"
+  },
+  {
+    "arp": "PEK",
+    "km": "1032",
+    "odp": "MWX",
+    "time": "92",
+    "tof": "I"
+  },
+  {
+    "arp": "PEK",
+    "km": "1022",
+    "odp": "CJJ",
+    "time": "91",
+    "tof": "I"
+  },
+  {
+    "arp": "PEK",
+    "km": "927",
+    "odp": "GMP",
+    "time": "84",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "4561",
+    "odp": "KUL",
+    "time": "357",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "4550",
+    "odp": "SIN",
+    "time": "356",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "3695",
+    "odp": "BKK",
+    "time": "292",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "3516",
+    "odp": "SGN",
+    "time": "278",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "3499",
+    "odp": "BKI",
+    "time": "277",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "3489",
+    "odp": "REP",
+    "time": "276",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "3227",
+    "odp": "VTE",
+    "time": "257",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "2960",
+    "odp": "DAD",
+    "time": "237",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "2884",
+    "odp": "GUM",
+    "time": "231",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "2800",
+    "odp": "CEB",
+    "time": "225",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "2784",
+    "odp": "SPN",
+    "time": "223",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "2755",
+    "odp": "KMG",
+    "time": "221",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "2736",
+    "odp": "HAN",
+    "time": "220",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "2686",
+    "odp": "KLO",
+    "time": "216",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "2424",
+    "odp": "MNL",
+    "time": "196",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "2311",
+    "odp": "ULN",
+    "time": "188",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "2078",
+    "odp": "MFM",
+    "time": "170",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "2042",
+    "odp": "HKG",
+    "time": "168",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "1999",
+    "odp": "CAN",
+    "time": "164",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "1867",
+    "odp": "DYG",
+    "time": "155",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "1844",
+    "odp": "XIY",
+    "time": "153",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "1677",
+    "odp": "CSX",
+    "time": "140",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "1627",
+    "odp": "KHH",
+    "time": "137",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "1487",
+    "odp": "TYN",
+    "time": "126",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "1387",
+    "odp": "CTS",
+    "time": "119",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "1342",
+    "odp": "TPE",
+    "time": "115",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "1316",
+    "odp": "SJW",
+    "time": "113",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "1215",
+    "odp": "PEK",
+    "time": "106",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "1181",
+    "odp": "HRB",
+    "time": "103",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "1172",
+    "odp": "TXN",
+    "time": "102",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "1040",
+    "odp": "NRT",
+    "time": "93",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "1017",
+    "odp": "CGQ",
+    "time": "91",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "1011",
+    "odp": "NKG",
+    "time": "90",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "1004",
+    "odp": "OKA",
+    "time": "90",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "967",
+    "odp": "HGH",
+    "time": "87",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "953",
+    "odp": "VVO",
+    "time": "86",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "861",
+    "odp": "SHE",
+    "time": "79",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "856",
+    "odp": "YNJ",
+    "time": "79",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "803",
+    "odp": "PVG",
+    "time": "75",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "784",
+    "odp": "TAO",
+    "time": "73",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "719",
+    "odp": "NGO",
+    "time": "68",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "583",
+    "odp": "KIX",
+    "time": "58",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "338",
+    "odp": "ICN",
+    "time": "40",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "243",
+    "odp": "KKJ",
+    "time": "33",
+    "tof": "I"
+  },
+  {
+    "arp": "PUS",
+    "km": "225",
+    "odp": "FUK",
+    "time": "31",
+    "tof": "I"
+  },
+  {
+    "arp": "PVG",
+    "km": "993",
+    "odp": "YNY",
+    "time": "89",
+    "tof": "I"
+  },
+  {
+    "arp": "PVG",
+    "km": "827",
+    "odp": "TAE",
+    "time": "77",
+    "tof": "I"
+  },
+  {
+    "arp": "PVG",
+    "km": "813",
+    "odp": "CJJ",
+    "time": "75",
+    "tof": "I"
+  },
+  {
+    "arp": "PVG",
+    "km": "803",
+    "odp": "PUS",
+    "time": "75",
+    "tof": "I"
+  },
+  {
+    "arp": "PVG",
+    "km": "605",
+    "odp": "MWX",
+    "time": "60",
+    "tof": "I"
+  },
+  {
+    "arp": "PVG",
+    "km": "515",
+    "odp": "CJU",
+    "time": "53",
+    "tof": "I"
+  },
+  {
+    "arp": "REP",
+    "km": "3489",
+    "odp": "PUS",
+    "time": "276",
+    "tof": "I"
+  },
+  {
+    "arp": "REP",
+    "km": "3296",
+    "odp": "MWX",
+    "time": "262",
+    "tof": "I"
+  },
+  {
+    "arp": "SGN",
+    "km": "3516",
+    "odp": "PUS",
+    "time": "278",
+    "tof": "I"
+  },
+  {
+    "arp": "SGN",
+    "km": "3227",
+    "odp": "CJU",
+    "time": "257",
+    "tof": "I"
+  },
+  {
+    "arp": "SHA",
+    "km": "866",
+    "odp": "GMP",
+    "time": "79",
+    "tof": "I"
+  },
+  {
+    "arp": "SHE",
+    "km": "940",
+    "odp": "CJU",
+    "time": "85",
+    "tof": "I"
+  },
+  {
+    "arp": "SHE",
+    "km": "861",
+    "odp": "PUS",
+    "time": "79",
+    "tof": "I"
+  },
+  {
+    "arp": "SHE",
+    "km": "781",
+    "odp": "TAE",
+    "time": "73",
+    "tof": "I"
+  },
+  {
+    "arp": "SHE",
+    "km": "647",
+    "odp": "CJJ",
+    "time": "63",
+    "tof": "I"
+  },
+  {
+    "arp": "SIN",
+    "km": "4550",
+    "odp": "PUS",
+    "time": "356",
+    "tof": "I"
+  },
+  {
+    "arp": "SIN",
+    "km": "4265",
+    "odp": "CJU",
+    "time": "334",
+    "tof": "I"
+  },
+  {
+    "arp": "SJW",
+    "km": "1316",
+    "odp": "PUS",
+    "time": "113",
+    "tof": "I"
+  },
+  {
+    "arp": "SJW",
+    "km": "1188",
+    "odp": "CJU",
+    "time": "104",
+    "tof": "I"
+  },
+  {
+    "arp": "SPN",
+    "km": "2784",
+    "odp": "PUS",
+    "time": "223",
+    "tof": "I"
+  },
+  {
+    "arp": "SZX",
+    "km": "1732",
+    "odp": "CJU",
+    "time": "144",
+    "tof": "I"
+  },
+  {
+    "arp": "TAE",
+    "km": "3719",
+    "odp": "BKK",
+    "time": "293",
+    "tof": "I"
+  },
+  {
+    "arp": "TAE",
+    "km": "2992",
+    "odp": "DAD",
+    "time": "239",
+    "tof": "I"
+  },
+  {
+    "arp": "TAE",
+    "km": "2961",
+    "odp": "GUM",
+    "time": "237",
+    "tof": "I"
+  },
+  {
+    "arp": "TAE",
+    "km": "2754",
+    "odp": "HAN",
+    "time": "221",
+    "tof": "I"
+  },
+  {
+    "arp": "TAE",
+    "km": "2166",
+    "odp": "CKG",
+    "time": "177",
+    "tof": "I"
+  },
+  {
+    "arp": "TAE",
+    "km": "2110",
+    "odp": "MFM",
+    "time": "173",
+    "tof": "I"
+  },
+  {
+    "arp": "TAE",
+    "km": "1867",
+    "odp": "DYG",
+    "time": "155",
+    "tof": "I"
+  },
+  {
+    "arp": "TAE",
+    "km": "1687",
+    "odp": "CSX",
+    "time": "141",
+    "tof": "I"
+  },
+  {
+    "arp": "TAE",
+    "km": "1394",
+    "odp": "TPE",
+    "time": "119",
+    "tof": "I"
+  },
+  {
+    "arp": "TAE",
+    "km": "1156",
+    "odp": "PEK",
+    "time": "101",
+    "tof": "I"
+  },
+  {
+    "arp": "TAE",
+    "km": "951",
+    "odp": "NGB",
+    "time": "86",
+    "tof": "I"
+  },
+  {
+    "arp": "TAE",
+    "km": "827",
+    "odp": "PVG",
+    "time": "77",
+    "tof": "I"
+  },
+  {
+    "arp": "TAE",
+    "km": "781",
+    "odp": "SHE",
+    "time": "73",
+    "tof": "I"
+  },
+  {
+    "arp": "TAE",
+    "km": "779",
+    "odp": "YNJ",
+    "time": "73",
+    "tof": "I"
+  },
+  {
+    "arp": "TAE",
+    "km": "264",
+    "odp": "ICN",
+    "time": "34",
+    "tof": "I"
+  },
+  {
+    "arp": "TAO",
+    "km": "784",
+    "odp": "PUS",
+    "time": "73",
+    "tof": "I"
+  },
+  {
+    "arp": "TNA",
+    "km": "922",
+    "odp": "CJU",
+    "time": "84",
+    "tof": "I"
+  },
+  {
+    "arp": "TPE",
+    "km": "1421",
+    "odp": "CJJ",
+    "time": "121",
+    "tof": "I"
+  },
+  {
+    "arp": "TPE",
+    "km": "1394",
+    "odp": "TAE",
+    "time": "119",
+    "tof": "I"
+  },
+  {
+    "arp": "TPE",
+    "km": "1342",
+    "odp": "PUS",
+    "time": "115",
+    "tof": "I"
+  },
+  {
+    "arp": "TPE",
+    "km": "1205",
+    "odp": "MWX",
+    "time": "105",
+    "tof": "I"
+  },
+  {
+    "arp": "TPE",
+    "km": "1065",
+    "odp": "CJU",
+    "time": "94",
+    "tof": "I"
+  },
+  {
+    "arp": "TSA",
+    "km": "1471",
+    "odp": "GMP",
+    "time": "125",
+    "tof": "I"
+  },
+  {
+    "arp": "TSN",
+    "km": "1028",
+    "odp": "CJU",
+    "time": "92",
+    "tof": "I"
+  },
+  {
+    "arp": "TSN",
+    "km": "991",
+    "odp": "YNY",
+    "time": "89",
+    "tof": "I"
+  },
+  {
+    "arp": "TSN",
+    "km": "924",
+    "odp": "MWX",
+    "time": "84",
+    "tof": "I"
+  },
+  {
+    "arp": "TXN",
+    "km": "1172",
+    "odp": "PUS",
+    "time": "102",
+    "tof": "I"
+  },
+  {
+    "arp": "TYN",
+    "km": "1487",
+    "odp": "PUS",
+    "time": "126",
+    "tof": "I"
+  },
+  {
+    "arp": "TYN",
+    "km": "1410",
+    "odp": "YNY",
+    "time": "120",
+    "tof": "I"
+  },
+  {
+    "arp": "ULN",
+    "km": "2311",
+    "odp": "PUS",
+    "time": "188",
+    "tof": "I"
+  },
+  {
+    "arp": "ULN",
+    "km": "2292",
+    "odp": "CJU",
+    "time": "186",
+    "tof": "I"
+  },
+  {
+    "arp": "ULN",
+    "km": "2099",
+    "odp": "CJJ",
+    "time": "172",
+    "tof": "I"
+  },
+  {
+    "arp": "VTE",
+    "km": "3227",
+    "odp": "PUS",
+    "time": "257",
+    "tof": "I"
+  },
+  {
+    "arp": "VVO",
+    "km": "953",
+    "odp": "PUS",
+    "time": "86",
+    "tof": "I"
+  },
+  {
+    "arp": "VVO",
+    "km": "661",
+    "odp": "YNY",
+    "time": "64",
+    "tof": "I"
+  },
+  {
+    "arp": "WNZ",
+    "km": "822",
+    "odp": "CJU",
+    "time": "76",
+    "tof": "I"
+  },
+  {
+    "arp": "WUH",
+    "km": "1553",
+    "odp": "YNY",
+    "time": "131",
+    "tof": "I"
+  },
+  {
+    "arp": "WUH",
+    "km": "1230",
+    "odp": "MWX",
+    "time": "107",
+    "tof": "I"
+  },
+  {
+    "arp": "WUH",
+    "km": "1197",
+    "odp": "CJU",
+    "time": "104",
+    "tof": "I"
+  },
+  {
+    "arp": "WUX",
+    "km": "612",
+    "odp": "CJU",
+    "time": "60",
+    "tof": "I"
+  },
+  {
+    "arp": "XIY",
+    "km": "1844",
+    "odp": "PUS",
+    "time": "153",
+    "tof": "I"
+  },
+  {
+    "arp": "XIY",
+    "km": "1640",
+    "odp": "CJU",
+    "time": "138",
+    "tof": "I"
+  },
+  {
+    "arp": "XMN",
+    "km": "1284",
+    "odp": "CJU",
+    "time": "111",
+    "tof": "I"
+  },
+  {
+    "arp": "YNJ",
+    "km": "1072",
+    "odp": "CJU",
+    "time": "95",
+    "tof": "I"
+  },
+  {
+    "arp": "YNJ",
+    "km": "916",
+    "odp": "MWX",
+    "time": "83",
+    "tof": "I"
+  },
+  {
+    "arp": "YNJ",
+    "km": "856",
+    "odp": "PUS",
+    "time": "79",
+    "tof": "I"
+  },
+  {
+    "arp": "YNJ",
+    "km": "779",
+    "odp": "TAE",
+    "time": "73",
+    "tof": "I"
+  },
+  {
+    "arp": "YNJ",
+    "km": "705",
+    "odp": "CJJ",
+    "time": "67",
+    "tof": "I"
+  },
+  {
+    "arp": "YNJ",
+    "km": "539",
+    "odp": "YNY",
+    "time": "55",
+    "tof": "I"
+  },
+  {
+    "arp": "YNY",
+    "km": "2601",
+    "odp": "NNG",
+    "time": "210",
+    "tof": "I"
+  },
+  {
+    "arp": "YNY",
+    "km": "1806",
+    "odp": "CSX",
+    "time": "150",
+    "tof": "I"
+  },
+  {
+    "arp": "YNY",
+    "km": "1590",
+    "odp": "FOC",
+    "time": "134",
+    "tof": "I"
+  },
+  {
+    "arp": "YNY",
+    "km": "1563",
+    "odp": "KHN",
+    "time": "132",
+    "tof": "I"
+  },
+  {
+    "arp": "YNY",
+    "km": "1553",
+    "odp": "WUH",
+    "time": "131",
+    "tof": "I"
+  },
+  {
+    "arp": "YNY",
+    "km": "1410",
+    "odp": "TYN",
+    "time": "120",
+    "tof": "I"
+  },
+  {
+    "arp": "YNY",
+    "km": "1387",
+    "odp": "CGO",
+    "time": "119",
+    "tof": "I"
+  },
+  {
+    "arp": "YNY",
+    "km": "1276",
+    "odp": "KHV",
+    "time": "110",
+    "tof": "I"
+  },
+  {
+    "arp": "YNY",
+    "km": "1260",
+    "odp": "HFE",
+    "time": "109",
+    "tof": "I"
+  },
+  {
+    "arp": "YNY",
+    "km": "1130",
+    "odp": "NGB",
+    "time": "99",
+    "tof": "I"
+  },
+  {
+    "arp": "YNY",
+    "km": "993",
+    "odp": "PVG",
+    "time": "89",
+    "tof": "I"
+  },
+  {
+    "arp": "YNY",
+    "km": "991",
+    "odp": "TSN",
+    "time": "89",
+    "tof": "I"
+  },
+  {
+    "arp": "YNY",
+    "km": "864",
+    "odp": "HRB",
+    "time": "79",
+    "tof": "I"
+  },
+  {
+    "arp": "YNY",
+    "km": "661",
+    "odp": "VVO",
+    "time": "64",
+    "tof": "I"
+  },
+  {
+    "arp": "YNY",
+    "km": "539",
+    "odp": "YNJ",
+    "time": "55",
+    "tof": "I"
+  }
+]
