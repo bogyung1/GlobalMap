@@ -1,40 +1,56 @@
 import React, {Component} from 'react';
+import { Link, Route, Switch, BrowserRouter as Router } from "react-router-dom"
+import airportarray from "./airportarray"
 import './App.css';
-import airportData from './components/data/airportData.json';
 import MainForm from './components/MainForm';
 import MapForm from "./components/MapForm";
-
+import airportData from './components/data/airportdatajs.json';
 
 class App extends Component {
+
+
+
   state = {
-    country : [
-      {
-        departure: '',
-        arrival: ''
+    departure: {
+      name: '',
+      code:'',
+      location: {
+        lat: 0,
+        lon: 0
       }
-    ]
+    },
+    arrival: {
+      name: '',
+      code: '',
+      location: {
+        lat: 0,
+        lon: 0
+      }
+    }
   }
 
+
   render() {
+
+
     const {country} = this.state;
     return (
         <div>
-            {airportData.map((item, index) => {
-                return (
 
-                    <h3>출발공항:{item.arp}, 거리:{item.km}, 도착공항:{item.odp}, time: {item.time}</h3>
 
-                );
-            })
-            }
+
           <MainForm/>
           <MapForm/>
-
+          <airCode/>
 
         </div>
 
+
+
     );
   }
+
+
 }
 
 export default App;
