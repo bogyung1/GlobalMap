@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import SearchForm from './SearchForm'
+import React, {Component} from 'react';
+import MapForm from "./MapForm";
+import SearchForm from "./SearchForm"
 
 class MainForm extends Component {
     state = {
@@ -19,19 +20,14 @@ class MainForm extends Component {
     }
     render() {
         const {country} = this.state;
-        let title = "먼나라 이웃나라";
         return (
-
             <div>
-                {title}
                 <SearchForm
                     onSearch = {this.handleSearch}
                 />
                 {JSON.stringify(country)}
-
-
+                <MapForm />
             </div>
-
         );
     }
 }

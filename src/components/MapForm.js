@@ -3,8 +3,6 @@ import '.././App.css';
 import { Map, GoogleApiWrapper,Marker, InfoWindow } from 'google-maps-react';
 
 class MapForm extends Component {
-
-
     constructor(props) {
         super(props);
         this.state = {
