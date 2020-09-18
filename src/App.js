@@ -28,29 +28,11 @@ const styles = {
 };
 
 class App extends Component {
-  state = {
-    departure: {
-      name: '',
-      code: '',
-      location: {
-        lat: 0,
-        lon: 0
-      }
-    },
-    arrival: {
-      name: '',
-      code: '',
-      location: {
-        lat: 0,
-        lon: 0
-      }
-    }
-  }
 
   render() {
-    const { country } = this.state;
     const { classes } = this.props;
     return (
+
         <BrowserRouter>
           <div>
             <Container maxWidth="false" minWidth="lg">
@@ -69,6 +51,7 @@ class App extends Component {
               <Route exact path="/" component={StartForm} />
               <Route path="/main" component={MainForm} />
             </Container>
+
           </div>
         </BrowserRouter>
     );

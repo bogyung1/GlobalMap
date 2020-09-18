@@ -1,5 +1,7 @@
-import React, {Component} from 'react';
 import { withStyles } from '@material-ui/styles';
+import React, { Component } from 'react';
+import excelJson from './data/exceldata.json'
+import airportdatajs from './data/airportdatajs.json'
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
@@ -26,15 +28,16 @@ const styles = {
     }
 };
 
-const airport = [ 'The Shawshank Redemption', 'The Godfather' ];
+const airport = excelJson.map((data) => data.name).sort();
 class SearchForm extends Component {
     state = {
-        departure : '',
-        arrival : ''
+        departure: '',
+        arrival: ''
     }
 
     handleDepartureChange = (e, value) => {
         this.setState({
+
             departure: value
         });
     }
@@ -56,6 +59,21 @@ class SearchForm extends Component {
 
     render() {
         const { classes } = this.props;
+        let nameTocode = '';
+        const airport2 = [];
+
+        excelJson.filter((data)=>{
+            return this.state.departure === data.name
+        }).map((data) => nameTocode = data.code)
+        const airport2codes = airportdatajs.filter((data)=>{
+            return nameTocode === data.arp
+        }).map((data) => data.odp)
+        for(let i=0;i<airport2codes.length;i++) {
+            excelJson.filter((data)=>{
+                return airport2codes[i] === data.code
+            }).map((data) => airport2.push(data.name))
+        }
+
         return (
             <form onSubmit={this.handleSubmit} className={classes.root}>
                 <Autocomplete
@@ -73,7 +91,7 @@ class SearchForm extends Component {
                 <Autocomplete
                     className={classes.box}
                     id="combo-box-demo"
-                    options={airport}
+                    options={airport2}
                     onChange={this.handleArrivalChange}
                     name="arrival"
                     style={{ width: 300 }}

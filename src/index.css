@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'neodgm', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'NeoDunggeunmo', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,13 +10,6 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-@font-face {
-  font-family: 'noedgm';
-  src: url("styles/fonts/neodgm.woff2") format("woff2"),
-  url("styles/fonts/neodgm.woff") format("woff"),
-  url("styles/fonts/neodgm.ttf") format("truetype");
 }
 
 @font-face {
