@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import SearchForm from "./SearchForm"
 import excelJson from "./data/exceldata.json";
-import Airportarray from "../Airportarray";
+import Airportarray from "./Airportarray";
 import MapForm from "./MapForm";
 
 class MainForm extends Component {

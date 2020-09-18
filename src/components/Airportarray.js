@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import './App.css';
-import airportData from './components/data/airportdatajs.json';
+import '../App.css';
+import airportData from './data/airportdatajs.json';
 
 class Airportarray extends Component {
     render() {
@@ -10,9 +10,9 @@ class Airportarray extends Component {
         airportData.map((item) => {
             if (start === item.arp && end === item.odp){
                 arr.push("출발공항 : " + item.arp);
-                arr.push(" 도착공항 : " + item.odp);
-                arr.push(" 거리 : " + item.km+"km");
-                arr.push(" 소요시간 : " + item.time+"분");
+                arr.push("  도착공항 : " + item.odp);
+                arr.push("  거리 : " + item.km+"km");
+                arr.push("  소요시간 : " + item.time+"분");
             }
         });
         /*airportData.filter((item)=>{
