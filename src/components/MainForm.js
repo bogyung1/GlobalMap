@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import MapForm from "./MapForm";
 import SearchForm from "./SearchForm"
 import excelJson from "./data/exceldata.json";
+import Airportarray from "../Airportarray";
+import MapForm from "./MapForm";
 
 class MainForm extends Component {
     state = {
@@ -41,7 +42,8 @@ class MainForm extends Component {
                 <SearchForm
                     onSearch = {this.handleSearch}
                 />
-                <MapForm airportdata = {airportData}/>
+                <Airportarray airportdata = {airportData}/>
+                <MapForm dname = {dname} aname={aname} airportdata = {airportData}/>
             </div>
         );
     }
