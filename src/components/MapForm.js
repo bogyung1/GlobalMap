@@ -23,8 +23,10 @@ class MapForm extends Component {
     state = {
         showingInfoWindow: false,
         activeMarker: {},
-        selectedPlace: {}
+        selectedPlace: {},
     };
+
+
 
 
     onMarkerClick = (props, marker, e) =>
@@ -73,6 +75,10 @@ class MapForm extends Component {
 
         return (
             <div className="App">
+                {this.props.ar[0]}&nbsp;&nbsp;&nbsp;
+                {this.props.ar[1]}&nbsp;&nbsp;&nbsp;
+                {this.props.ar[2]}&nbsp;&nbsp;&nbsp;
+                {this.props.ar[3]}
                 {/*<header className="App-header">*/}
                 {/*    {username ? `Hello ${username}` : 'Hello World'}*/}
                 {/*</header>*/}
@@ -82,9 +88,9 @@ class MapForm extends Component {
 
                     <Marker
                         onClick={this.onMarkerClick}
-                        title={'캇시나 공항'}
+                        title={'d'}
                         name={'airport1'}
-                        content={'캇시나 공항-->김포 공항\n 걸리는 시간: _시간'}
+                        content={this.props.ar[0]}
                         position={{lat: 13.005696, lng: 7.658433}} >
 
 
@@ -98,7 +104,7 @@ class MapForm extends Component {
                         onClick={this.onMarkerClick}
                         title={'김포 공항'}
                         name={'airport2'}
-                        content={'김포 공항-->캇시나 공항\n 걸리는 시간: _시간'}
+                        content={this.props.ar[1]}
 
                         position={{lat: 37.558774, lng: 126.794452}}
                     />

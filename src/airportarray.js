@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link, Route, Switch, BrowserRouter as Router } from "react-router-dom"
 import './App.css';
 import MainForm from './components/MainForm';
 import MapForm from "./components/MapForm";
@@ -6,24 +7,44 @@ import airportData from './components/data/airportdatajs.json';
 
 
 class airportarray extends Component {
-    state = {
-        country : [
-            {
-                departure: '',
-                arrival: ''
-            }
-        ]
+
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            departure: {
+                name: '',
+                code:'BKI',
+                location: {
+                    lat: 0,
+                    lon: 0
+                }
+            },
+            arrival: {
+                name: '',
+                code: 'PUS',
+                location: {
+                    lat: 0,
+                    lon: 0
+                }
+            },
+            time: 0,
+            distance: 0
+        };
     }
 
+
+
     render() {
+
+        var arr = [];
         const {country} = this.state;
         return (
             <div>
+
                 {airportData.map((item, index) => {
-                    var arr = [];
-                    var start = "BKI";
-                    var end = "PUS";
-                    if (start == item.arp && end == item.odp)
+
+                    if (this.state.departure.code == item.arp && this.state.arrival.code == item.odp)
                     {
                         arr.push("출발공항 : " + item.arp)
                         arr.push("도착공항 : " + item.odp)
@@ -31,31 +52,15 @@ class airportarray extends Component {
                         arr.push("소요시간 : " + item.time+"분");
                     }
 
-                    return (
-
-                        <pre>
-
-                            <h3>{arr[0]}</h3>
-                            <h3>{arr[1]}</h3>
-                            <h3>{arr[2]}</h3>
-                            <h3>{arr[3]}</h3>
-                        </pre>
-
-                        // <h3>출발공항:{item.arp}, 거리:{item.km}, 도착공항:{item.odp}, time: {item.time}</h3>
-
-                    );
                 })
                 }
-                <MainForm/>
-                <MapForm/>
-                <airCode/>
 
+                <MainForm/>
+                <airCode/>
+                <MapForm ar = {arr} />;
             </div>
-            /*
-            <div>
-              <MainForm/>
-              <MapForm/>
-            </div>*/
+
+
 
         );
     }

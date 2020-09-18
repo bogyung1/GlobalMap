@@ -8,4 +8,6 @@ const jsonData = xlsx.utils.sheet_to_json( firstSheet, { defval : "" } );
 
 const airportnames = jsonData.map((data) => data.name);
 
+const airportcode = jsonData.map((data) => data.code);
+
 console.log(airportnames);
