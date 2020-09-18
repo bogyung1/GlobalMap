@@ -1,37 +1,50 @@
-import React, { Component } from 'react';
-import SearchForm from './SearchForm'
+import React, {Component} from 'react';
+import MapForm from "./MapForm";
+import SearchForm from "./SearchForm"
+import Airportarray from "../airportarray"
+import excelJson from "./data/exceldata.json";
+
 
 class MainForm extends Component {
     state = {
-        country : [
-            {
-                departure: '',
-                arrival: ''
-            }
-        ]
+        departure: '',
+        arrival: ''
     }
+
     handleSearch = (data) => {
-        const {country} = this.state;
         this.setState({
-                country: data
+                departure: data.departure,
+                arrival: data.arrival,
             }
         )
     }
-    render() {
-        const {country} = this.state;
-        let title = "먼나라 이웃나라";
-        return (
 
+    render() {
+        const airportData = [];
+        const dname = this.state.departure;
+        const aname = this.state.arrival;
+        excelJson.filter((data)=>{
+            return data.name === dname
+        }).map((data)=>(
+            airportData.push(data.code),
+                airportData.push(data.lat),
+                airportData.push(data.lon)
+        ))
+        excelJson.filter((data)=>{
+            return data.name === aname
+        }).map((data)=>(
+            airportData.push(data.code),
+                airportData.push(data.lat),
+                airportData.push(data.lon)
+        ))
+
+        return (
             <div>
-                {title}
                 <SearchForm
                     onSearch = {this.handleSearch}
                 />
-                {JSON.stringify(country)}
-
-
+                <Airportarray/>
             </div>
-
         );
     }
 }

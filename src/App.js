@@ -1,28 +1,41 @@
 import React, {Component} from 'react';
-import { Link, Route, Switch, BrowserRouter as Router } from "react-router-dom"
-import airportarray from "./airportarray"
+import { BrowserRouter, Route, Link } from "react-router-dom"
 import './App.css';
+import StartForm from './components/StartForm';
 import MainForm from './components/MainForm';
-import MapForm from "./components/MapForm";
-import airportData from "./components/data/airportdatajs.json";
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import FlightIcon from '@material-ui/icons/Flight';
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
 
 class App extends Component {
-
-
-  render() {
+    render() {
     return (
-        <div>
 
-          <airportarray/>
-          <airCode/>
-        </div>
+        <BrowserRouter>
+          <div className="App">
+            <Container maxWidth="lg">
+              <AppBar position="static">
+                <Toolbar variant="dense">
+                  <Link to="/">
+                    <FlightIcon color="inherit" />
+                  </Link>
+                  <Link to="/main" style={{textDecoration: 'none'}}>
+                    <Typography variant="h6" color="inherit">
+                    먼나라 이웃나라
+                    </Typography>
+                  </Link>
+                </Toolbar>
+              </AppBar>
+              <Route exact path="/" component={StartForm} />
+              <Route path="/main" component={MainForm} />
+            </Container>
 
-
-
+          </div>
+        </BrowserRouter>
     );
   }
-
-
 }
 
 export default App;

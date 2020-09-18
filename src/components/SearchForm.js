@@ -1,46 +1,69 @@
-import React, { Component } from 'react';
-import arrow from '.././rightarrow_80815.png'
 
+import React, { Component } from 'react';
+import excelJson from './data/exceldata.json'
+import TextField from '@material-ui/core/TextField';
+import Autocomplete from '@material-ui/lab/Autocomplete';
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import Button from '@material-ui/core/Button';
+
+const airport = excelJson.map((data) => data.name);
 class SearchForm extends Component {
     state = {
-        departure : '',
-        arrival : ''
+        departure: '',
+        arrival: ''
     }
-    handleChange = (e) => {
+
+    handleDepartureChange = (e, value) => {
         this.setState({
-            [e.target.name] : e.target.value
-        })
+
+            departure: value
+        });
     }
+
+    handleArrivalChange = (e, value) => {
+        this.setState({
+            arrival : value
+        });
+    }
+
     handleSubmit = (e) => {
         e.preventDefault();
         this.props.onSearch(this.state);
         this.setState({
-            departure : '',
-            arrival : ''
+            departure : this.state.departure,
+            arrival : this.state.arrival
         })
     }
+
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-
-                <input
-                    placeholder={'출발공항'}
-                    value={this.state.departure}
-                    onChange={this.handleChange}
-                    name={'departure'}
+                <Autocomplete
+                    id="controllable-states-demo"
+                    name="departure"
+                    options={airport}
+                    onChange={this.handleDepartureChange}
+                    style={{ width: 300 }}
+                    renderInput={(params) =>
+                        <TextField {...params} label="출발 공항"
+                                   variant="outlined" />}
                 />
-                <img
-                    src={arrow}
-                    width={20}
-                    height={14}
+                <ArrowForwardIcon />
+                <Autocomplete
+                    id="combo-box-demo"
+                    options={airport}
+                    onChange={this.handleArrivalChange}
+                    name="arrival"
+                    style={{ width: 300 }}
+                    renderInput={(params) =>
+                        <TextField {...params} label="도착 공항"
+                                   variant="outlined" />}
                 />
-                <input
-                    placeholder={'도착공항'}
-                    value={this.state.arrival}
-                    onChange={this.handleChange}
-                    name={'arrival'}
-                />
-                <button type={'search'}>찾기</button>
+                <Button type="submit"
+                        variant="contained"
+                        color="primary">
+                    찾기
+                </Button>
             </form>
         )
     }
