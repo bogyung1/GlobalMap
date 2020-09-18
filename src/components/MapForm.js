@@ -6,8 +6,10 @@ class MapForm extends Component {
     state = {
         showingInfoWindow: false,
         activeMarker: {},
-        selectedPlace: {}
+        selectedPlace: {},
     };
+
+
 
     onMarkerClick = (props, marker, e) =>
         this.setState({
@@ -45,7 +47,6 @@ class MapForm extends Component {
                         title={Adata[1].name}
                         name={'airport2'}
                         content={Adata[1].name+'('+Adata[1].code+')'}
-
                         position={{lat: Adata[1].lat, lng: Adata[1].lng}}
                     />
                     <InfoWindow

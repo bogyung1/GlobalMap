@@ -31,6 +31,7 @@ class App extends Component {
               <Route exact path="/" component={StartForm} />
               <Route path="/main" component={MainForm} />
             </Container>
+
           </div>
         </BrowserRouter>
     );
