@@ -54,8 +54,10 @@ class airportarray extends Component {
 
                 })
                 }
-                {arr}
-                <airCode/>
+                {arr[0]}&nbsp;&nbsp;&nbsp;
+                {arr[1]}&nbsp;&nbsp;&nbsp;
+                {arr[2]}&nbsp;&nbsp;&nbsp;
+                {arr[3]}&nbsp;&nbsp;&nbsp;
                 <MapForm ar = {arr} />;
             </div>
 
