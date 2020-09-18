@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
-import SearchForm from "./SearchForm";
 
 class StartForm extends Component {
 
     render() {
-        let title = "먼나라 이웃나라";
         return (
             <div>
-                {title}
+                <h2>먼나라 이웃나라</h2>
+                <span>공항 간 거리와 비행시간을 알려줍니다.</span>
             </div>
         );
     }

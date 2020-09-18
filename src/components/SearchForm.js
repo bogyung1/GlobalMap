@@ -4,89 +4,64 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import Button from '@material-ui/core/Button';
 
+const airport = [ 'The Shawshank Redemption', 'The Godfather' ];
 class SearchForm extends Component {
     state = {
         departure : '',
         arrival : ''
+    }
 
-    }
-    handleChange = (e) => {
+    handleDepartureChange = (e, value) => {
         this.setState({
-            [e.target.name] : e.target.value
-        })
+            departure: value
+        });
     }
+
+    handleArrivalChange = (e, value) => {
+        this.setState({
+            arrival : value
+        });
+    }
+
     handleSubmit = (e) => {
         e.preventDefault();
         this.props.onSearch(this.state);
         this.setState({
-            departure : '',
-            arrival : ''
+            departure : this.state.departure,
+            arrival : this.state.arrival
         })
     }
+
     render() {
-        const airport = [
-            { title: 'The Shawshank Redemption', year: 1994 },
-            { title: 'The Godfather', year: 1972 },
-            { title: 'The Godfather: Part II', year: 1974 },
-            { title: 'The Dark Knight', year: 2008 },
-            { title: '12 Angry Men', year: 1957 },
-        ];
         return (
             <form onSubmit={this.handleSubmit}>
-
-                {/*
-                <input
-                    placeholder={'출발공항'}
-                    value={this.state.departure}
-                    onChange={this.handleChange}
-                    name={'departure'}
-                />
-                */}
-
                 <Autocomplete
-                    id="combo-box-demo"
-                    placeholder={'출발공항'}
+                    id="controllable-states-demo"
+                    name="departure"
                     options={airport}
-                    value={this.state.arrival}
-                    onChange={this.handleChange}
-                    name={'departure'}
-                    getOptionLabel={(option) => option.title}
+                    onChange={this.handleDepartureChange}
                     style={{ width: 300 }}
                     renderInput={(params) =>
                         <TextField {...params} label="출발 공항"
-                                   variant="outlined"
-                                  />}
+                                   variant="outlined" />}
                 />
 
                 <ArrowForwardIcon />
-                {/*
-                <input
-                    placeholder={'도착공항'}
-                    value={this.state.arrival}
-                    onChange={this.handleChange}
-                    name={'arrival'}
-                />
-                */}
-
                 <Autocomplete
                     id="combo-box-demo"
-                    placeholder={'도착공항'}
                     options={airport}
-                    value={this.state.arrival}
-                    onChange={this.handleChange}
-                    name={'arrival'}
-                    getOptionLabel={(option) => option.title}
+                    onChange={this.handleArrivalChange}
+                    name="arrival"
                     style={{ width: 300 }}
                     renderInput={(params) =>
                         <TextField {...params} label="도착 공항"
                                    variant="outlined" />}
                 />
-                <Button type={'search'}
+                <Button type="submit"
                         variant="contained"
                         color="primary">
                     찾기
                 </Button>
-                {JSON.stringify(this.state.departure)}
             </form>
         )
     }

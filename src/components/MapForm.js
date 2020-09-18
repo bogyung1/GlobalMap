@@ -9,11 +9,13 @@ class MapForm extends Component {
             username:null
         };
     }
+
     componentDidMount() {
         fetch('api')
             .then(res=>res.json())
             .then(data=>this.setState({username:data.username}));
     }
+
     render() {
         //const {username} = this.state;
         return (
@@ -31,11 +33,8 @@ class MapForm extends Component {
 
                     </InfoWindow>
                 </Map>
-
             </div>
         );
-
-
     }
 }
 

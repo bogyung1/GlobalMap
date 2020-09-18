@@ -36,22 +36,20 @@ class App extends Component {
         <BrowserRouter>
           <div className="App">
             <Container maxWidth="lg">
-            <AppBar position="static">
-              <Toolbar variant="dense">
-                <Link to="/">
-                  <FlightIcon color="inherit" />
-                </Link>
-                <Link to="/main" style={{textDecoration: 'none'}}>
-                  <Typography variant="h6" color="inherit">
-                  먼나라 이웃나라
-                  </Typography>
-                </Link>
-              </Toolbar>
-            </AppBar>
-
-            <Route exact path="/" component={StartForm} />
-            <Route path="/main" component={MainForm} />
-
+              <AppBar position="static">
+                <Toolbar variant="dense">
+                  <Link to="/">
+                    <FlightIcon color="inherit" />
+                  </Link>
+                  <Link to="/main" style={{textDecoration: 'none'}}>
+                    <Typography variant="h6" color="inherit">
+                    먼나라 이웃나라
+                    </Typography>
+                  </Link>
+                </Toolbar>
+              </AppBar>
+              <Route exact path="/" component={StartForm} />
+              <Route path="/main" component={MainForm} />
             </Container>
           </div>
         </BrowserRouter>

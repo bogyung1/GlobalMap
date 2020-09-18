@@ -4,28 +4,26 @@ import SearchForm from "./SearchForm"
 
 class MainForm extends Component {
     state = {
-        country : [
-            {
-                departure: '',
-                arrival: ''
-            }
-        ]
+        departure: '',
+        arrival: ''
     }
+
     handleSearch = (data) => {
-        const {country} = this.state;
         this.setState({
-                country: data
+                departure: data.departure,
+                arrival: data.arrival,
             }
         )
     }
+
     render() {
-        const {country} = this.state;
         return (
             <div>
                 <SearchForm
                     onSearch = {this.handleSearch}
                 />
-                {JSON.stringify(country)}
+                {this.state.departure}
+                {this.state.arrival}
                 <MapForm />
             </div>
         );
