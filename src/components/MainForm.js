@@ -1,37 +1,31 @@
-import React, { Component } from 'react';
-import SearchForm from './SearchForm'
+import React, {Component} from 'react';
+import MapForm from "./MapForm";
+import SearchForm from "./SearchForm"
 
 class MainForm extends Component {
     state = {
-        country : [
-            {
-                departure: '',
-                arrival: ''
-            }
-        ]
+        departure: '',
+        arrival: ''
     }
+
     handleSearch = (data) => {
-        const {country} = this.state;
         this.setState({
-                country: data
+                departure: data.departure,
+                arrival: data.arrival,
             }
         )
     }
-    render() {
-        const {country} = this.state;
-        let title = "먼나라 이웃나라";
-        return (
 
+    render() {
+        return (
             <div>
-                {title}
                 <SearchForm
                     onSearch = {this.handleSearch}
                 />
-                {JSON.stringify(country)}
-
-
+                {this.state.departure}
+                {this.state.arrival}
+                <MapForm />
             </div>
-
         );
     }
 }
