@@ -3,16 +3,12 @@ import { Map, GoogleApiWrapper,Marker, InfoWindow,Polygon } from 'google-maps-re
 import '.././App.css';
 
 class MapForm extends Component {
-    //여기서 주석 풀면 content property가 undefined됐다고 뜸
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {
-    //         username:null
-    //     };
-    //
-    // }
+
 
     state = {
+        minZoom:2,
+        maxZoom:2,
+
         showingInfoWindow: false,
         activeMarker: {},
         selectedPlace: {},
@@ -42,13 +38,11 @@ class MapForm extends Component {
 
         return (
             <div className="App">
-                {/*<header className="App-header">*/}
-                {/*    {username ? `Hello ${username}` : 'Hello World'}*/}
-                {/*</header>*/}
-                <Map google={this.props.google} zoom={2}>
+
+                <Map google={this.props.google} minZoom={2} maxZoom={2}>
                     <Marker
                         onClick={this.onMarkerClick}
-                        title={'d'}
+                        title={'캇시나 공항'}
                         name={'airport1'}
                         position={{lat: 13.005696, lng: 7.658433}} >
                     </Marker>
@@ -63,7 +57,7 @@ class MapForm extends Component {
                         marker={this.state.activeMarker}
                         visible={this.state.showingInfoWindow}>
                         <div>
-                            <h1>{this.state.selectedPlace.content}</h1>
+                            <h1>{this.state.selectedPlace.title}</h1>
                         </div>
                     </InfoWindow>
                     <Polygon
