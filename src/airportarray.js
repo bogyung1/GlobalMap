@@ -51,11 +51,7 @@ class airportarray extends Component {
                 <airCode/>
 
             </div>
-            /*
-            <div>
-              <MainForm/>
-              <MapForm/>
-            </div>*/
+
 
         );
     }
