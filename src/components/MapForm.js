@@ -5,6 +5,7 @@ import '.././App.css';
 class MapForm extends Component {
 
 
+
     state = {
         minZoom:2,
         maxZoom:2,
@@ -31,27 +32,32 @@ class MapForm extends Component {
 
     render() {
         //두 지점 사이 선 긋기
-        const triangleCoords = [
-            {lat: 13.005696, lng: 7.658433},
-            {lat: 37.558774, lng: 126.794452},
+        const Adata = [
+            {name: this.props.dname, code: this.props.airportdata[0], lat: this.props.airportdata[1], lng: this.props.airportdata[2]},
+            {name: this.props.aname, code: this.props.airportdata[3], lat: this.props.airportdata[4], lng: this.props.airportdata[5]},
         ];
 
         return (
             <div className="App">
 
+
+
+
                 <Map google={this.props.google} minZoom={2} maxZoom={2}>
                     <Marker
                         onClick={this.onMarkerClick}
-                        title={'캇시나 공항'}
+                        title={Adata[0].name}
+
                         name={'airport1'}
-                        position={{lat: 13.005696, lng: 7.658433}} >
+                        content={Adata[0].name+'('+Adata[0].code+')'}
+                        position={{lat: Adata[0].lat, lng: Adata[0].lng}} >
                     </Marker>
                     <Marker
                         onClick={this.onMarkerClick}
-                        title={'김포 공항'}
+                        title={Adata[1].name}
                         name={'airport2'}
-
-                        position={{lat: 37.558774, lng: 126.794452}}
+                        content={Adata[1].name+'('+Adata[1].code+')'}
+                        position={{lat: Adata[1].lat, lng: Adata[1].lng}}
                     />
                     <InfoWindow
                         marker={this.state.activeMarker}
@@ -61,7 +67,7 @@ class MapForm extends Component {
                         </div>
                     </InfoWindow>
                     <Polygon
-                        paths={triangleCoords}
+                        paths={Adata}
                         strokeColor="#0000FF"
                         strokeOpacity={0.9}
                         strokeWeight={2}
