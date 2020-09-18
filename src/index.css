@@ -14,9 +14,9 @@ code {
 
 @font-face {
   font-family: 'noedgm';
-  src: url("fonts/neodgm.woff2") format("woff2"),
-  url("fonts/neodgm.woff") format("woff"),
-  url("fonts/neodgm.ttf") format("truetype");
+  src: url("styles/fonts/neodgm.woff2") format("woff2"),
+  url("styles/fonts/neodgm.woff") format("woff"),
+  url("styles/fonts/neodgm.ttf") format("truetype");
 }
 
 @font-face {

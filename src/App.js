@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { BrowserRouter, Route, Link } from "react-router-dom"
 import './App.css';
+import { withStyles } from '@material-ui/styles';
 import StartForm from './components/StartForm';
 import MainForm from './components/MainForm';
 import AppBar from '@material-ui/core/AppBar';
@@ -9,8 +10,24 @@ import FlightIcon from '@material-ui/icons/Flight';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 
-class App extends Component {
+const styles = {
+  appBar: {
+    background: '#d4e176',
+    padding: '10px',
+  },
+  appIcon: {
+    color: 'black',
+    fontSize: '2rem',
+    display: 'flex',
+  },
+  appTitle: {
+    textDecoration: 'none',
+    color: 'black',
+    paddingLeft: '10px'
+  }
+};
 
+class App extends Component {
   state = {
     departure: {
       name: '',
@@ -32,17 +49,18 @@ class App extends Component {
 
   render() {
     const { country } = this.state;
+    const { classes } = this.props;
     return (
         <BrowserRouter>
-          <div className="App">
-            <Container maxWidth="lg">
-              <AppBar position="static">
+          <div>
+            <Container maxWidth="false" minWidth="lg">
+              <AppBar className={classes.appBar} position="static">
                 <Toolbar variant="dense">
                   <Link to="/">
-                    <FlightIcon color="inherit" />
+                    <FlightIcon className={classes.appIcon} color="inherit"/>
                   </Link>
-                  <Link to="/main" style={{textDecoration: 'none'}}>
-                    <Typography variant="h6" color="inherit">
+                  <Link to="/main" className={classes.appTitle}>
+                    <Typography variant="h4" color="inherit">
                     먼나라 이웃나라
                     </Typography>
                   </Link>
@@ -57,4 +75,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withStyles(styles)(App);

@@ -1,8 +1,30 @@
 import React, {Component} from 'react';
+import { withStyles } from '@material-ui/styles';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import Button from '@material-ui/core/Button';
+
+const styles = {
+    root: {
+        display: 'flex',
+        justifyContent: 'center',
+    },
+    box : {
+        padding: '15px'
+    },
+    icon : {
+        paddingTop: '30px'
+    },
+    button : {
+        marginTop:'20px',
+        marginBottom:'20px',
+        backgroundColor:'#8000bf',
+        '&:hover': {
+            backgroundColor: '#660099',
+        },
+    }
+};
 
 const airport = [ 'The Shawshank Redemption', 'The Godfather' ];
 class SearchForm extends Component {
@@ -33,9 +55,11 @@ class SearchForm extends Component {
     }
 
     render() {
+        const { classes } = this.props;
         return (
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} className={classes.root}>
                 <Autocomplete
+                    className={classes.box}
                     id="controllable-states-demo"
                     name="departure"
                     options={airport}
@@ -45,8 +69,9 @@ class SearchForm extends Component {
                         <TextField {...params} label="출발 공항"
                                    variant="outlined" />}
                 />
-                <ArrowForwardIcon />
+                <ArrowForwardIcon className={classes.icon}/>
                 <Autocomplete
+                    className={classes.box}
                     id="combo-box-demo"
                     options={airport}
                     onChange={this.handleArrivalChange}
@@ -56,7 +81,8 @@ class SearchForm extends Component {
                         <TextField {...params} label="도착 공항"
                                    variant="outlined" />}
                 />
-                <Button type="submit"
+                <Button className={classes.button}
+                    type="submit"
                         variant="contained"
                         color="primary">
                     찾기
@@ -66,4 +92,4 @@ class SearchForm extends Component {
     }
 }
 
-export default SearchForm;
+export default withStyles(styles)(SearchForm);
