@@ -15,7 +15,6 @@ class Airportarray extends Component {
                 arr.push("  소요시간 : " + item.time+"분");
             }
         });
-
         return (
             <div style={{textAlign:'center', fontSize:'30px', paddingBottom:'10px'}}>
               {arr}
